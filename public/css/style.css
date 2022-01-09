@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.technology-main {
+    width: 100%;
+    background-color: #120237;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.center {
+    height: 8rem;
+    width: auto;
+    position: relative;
+
+}
+.center img {
+    width: 100%;
+    height: 100%;
+}
+
+.bubble1 {
+    position: absolute;
+    left: 30%;
+    height: 6rem;
+    width: 6rem;
+    background: url(../images/technology/bubble.png) center/cover;
+}
