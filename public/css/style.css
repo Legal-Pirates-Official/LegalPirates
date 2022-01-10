@@ -89,6 +89,10 @@
 	}
 }
 
+#hero-left {
+	position: absolute;
+}
+
 .hero-title,
 .hero-tagline,
 .hero-buttons {
