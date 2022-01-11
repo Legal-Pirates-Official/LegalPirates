@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.update-main-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.update-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* background: linear-gradient(to right, #232526, #414345); */
+  background: url("https://download-oem-software.com/wp-content/uploads/2021/12/Technology.jpg")
+    center/cover no-repeat;
+}
+
+.update-div h1 {
+  position: absolute;
+  font-size: 4rem;
+  color: #fff;
+  left: 10%;
+  float: left;
+  font-family: "Permanent Marker", cursive;
+}
+
+.updates-boxes {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0%;
+}
+
+.main-all-boxes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  width: 28%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  background: #fff;
+  transition: all 0.2s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+
+.box1 {
+  background: url("https://content.techgig.com/photo/83600041/what-it-takes-for-technologies-to-go-from-breakthrough-to-big-time.jpg?27767")
+    center/cover no-repeat;
+}
+
+.box2 {
+  background: url("https://www.globalfocusmagazine.com/wp-content/uploads/2020/02/Engaging_with_technology-scaled.jpg")
+    center/cover no-repeat;
+}
+
+.box3 {
+  background: url("https://content.techgig.com/photo/83600041/what-it-takes-for-technologies-to-go-from-breakthrough-to-big-time.jpg?27767")
+    center/cover no-repeat;
+}
+
+.updates-column {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100%;
+}
+
+.columnbox-all {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.columnbox {
+  position: relative;
+  width: 93%;
+  height: 15rem;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border-radius: 10px;
+}
+
+.column-image {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  padding: 1%;
+  overflow: hidden;
+  /* background: url("https://content.techgig.com/photo/83600041/what-it-takes-for-technologies-to-go-from-breakthrough-to-big-time.jpg?27767") center/cover no-repeat; */
+}
+
+.column-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.column-content {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  color: #fff;
+}
