@@ -7,6 +7,12 @@
 		<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 		<link rel="stylesheet" href="./public/css/style.css" />
 		<link rel="stylesheet" href="./public/css/about.css" />
+		<!-- <link rel="stylesheet" href="./public/css/splide.min.css"> -->
+		<link rel="stylesheet" href="./public/css/projects.css" />
+		<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
 		<title>Legal Pirates</title>
 	</head>
 	<body>
@@ -43,8 +49,55 @@
 			/>
 			<div class="hero-radial"></div>
 		</div>
-	
-
+		<!-- projects -->
+		<section class="ourprojects">
+			<!-- leftside -->
+			<div class="projectleft">
+			  <span class="leftspan">
+				<p class="dispquote">
+				  <span><img src="https://img.icons8.com/ios/50/FFFFFF/quote-left.png"/><br></span>
+				   A project is complete when it starts working for you, rather than you working for it.<br> — Scott Allen
+				</p>
+				<h1 class="dispproject">Our Projects <span class="dispprojectspan">-></span></h1>
+			  </span>
+			  <h2 class="disph1"></h2>
+			</div>
+			<!-- rightside -->
+			<div class="projectright">
+			  <!-- grid section -->
+			  <div class="container">
+				<div class="project1 projectnum" id="trekidoo"></div>
+				<div class="project2 projectnum" id="Shk"></div>
+				<div class="project3 projectnum" id="infotech"></div>
+				<div class="project4 projectnum" id="digitran"></div>
+				<div class="project5 projectnum" id="tedx"></div>
+				<div class="project6 projectnum" id="disp6"></div>
+				<div class="project7 projectnum" id="disp7"></div>
+				<div class="project8 projectnum" id="disp8"></div>
+			  </div>
+			  <!-- content section -->
+			  <div class="container2">
+				<div class="projectdisplay">
+				  <span
+					><img
+					  class="backbtn"
+					  src="https://img.icons8.com/fluency/96/000000/circled-left-2.png"
+					/>
+				  </span>
+	  
+				  <div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide swiperslide1">Slide 1</div>
+					  <div class="swiper-slide swiperslide2">Slide 2</div>
+					  <div class="swiper-slide swiperslide3">Slide 3</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				  </div>
+				  <p class="dispp"></p>
+				</div>
+			  </div>
+			</div>
+		  </section>
 		<!-- About us -->
 
     <section class="about-us">
@@ -158,7 +211,9 @@
 
 	animate();
 </script>
-
+<script src="./public/javascript/swiper.min.js"></script>
+    <script src="./public/javascript/seeds.js"></script>
+    <script src="./public/javascript/projects.js"></script>
 </body>
 
 </html>
