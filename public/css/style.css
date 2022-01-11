@@ -23,7 +23,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 8rem;
+	padding: 0 10%;
 	z-index: 3;
 }
 
@@ -219,5 +219,35 @@
 	}
 	.hero-radial {
 		display: none;
+	}
+
+	/* our projects */
+
+	.ourprojects {
+		flex-direction: column;
+	}
+
+	.projectleft {
+		height: auto !important;
+		position: static !important;
+		width: 100% !important;
+	}
+
+	.projectright {
+		width: 100% !important;
+	}
+
+	.dispquote {
+		margin: 3em 0 !important;
+		margin-bottom: 1em !important;
+	}
+
+	.dispproject {
+		position: absolute;
+		bottom: -2em;
+	}
+
+	.container {
+		margin-top: 5em;
 	}
 }
