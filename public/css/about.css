@@ -109,6 +109,7 @@
 .right-side h1 {
 	font-size: 3rem;
 	color: #fff;
+	margin-top: 3rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 2rem;
@@ -199,13 +200,6 @@
 	}
 }
 
-/* 
-.top
-{
-    width: 100%;
-    height: 100vh;
-} */
-
 .right-click-list {
 	width: 18rem;
 	height: 7rem;
@@ -281,7 +275,7 @@
 @media only screen and (max-width: 1150px) {
 	.about-us-sides {
 		flex-direction: column-reverse !important;
-		height: 130vh !important;
+		height: fit-content !important;
 	}
 
 	.right-side {
@@ -292,22 +286,35 @@
 		width: 100% !important;
 		padding: 0 !important;
 	}
-}
 
+	.left-side-inner {
+		width: 60vw;
+		height: 30vh;
+	}
+}
 @media only screen and (max-width: 800px) {
-	.about-us-sides {
-		height: 150vh !important;
+	.left-side-inner {
+		width: 70vw;
+	}
+	.button-53 {
+		max-width: 80vw;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	.about-us-sides {
-		height: 160vh !important;
+	.left-side-inner {
+		height: 40vh;
 	}
 }
 
 @media only screen and (max-width: 500px) {
-	.about-us-sides {
-		height: 180vh !important;
+	.left-side-inner {
+		height: 50vh;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.left-side-inner {
+		height: 60vh;
 	}
 }
