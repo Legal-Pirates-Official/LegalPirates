@@ -2,37 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/style.css">
-    <link rel="stylesheet" href="./public/css/about.css">
-    <link rel="stylesheet" href="./public/css/pop-up.css">
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="stylesheet" href="./public/css/about.css" />
+    <!-- <link rel="stylesheet" href="./public/css/splide.min.css"> -->
+    <link rel="stylesheet" href="./public/css/projects.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <title>Legal Pirates</title>
 </head>
 
 <body>
-    <!-- technology -->
-    <!-- <section class="technology-main">
-        <div class="center">
-            <img  src="./public/images/logo" alt="" srcset="">
+    <!-- Hero -->
+
+    <div class="hero" id="home">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="./public/images/logo-gold-transparent.png" alt="Legal pirates" />
+            </div>
+            <ul class="nav-link-container">
+                <li class="nav-link"><a href="#home">Home</a></li>
+                <li class="nav-link"><a href="#about">About</a></li>
+                <li class="nav-link"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <canvas id="hero-left"></canvas>
+            <h1 class="hero-title">LEGAL PIRATES</h1>
+            <h3 class="hero-tagline">The Legacy Of Tech Era</h3>
+            <div class="hero-buttons">
+                <a href="#about" class="hero-know-more">Know more</a>
+                <div class="hero-buttons-line"></div>
+                <a href="#contact" class="hero-lets-talk">Let's talk</a>
+            </div>
         </div>
-        <div class="bubble1">
+        <img class="hero-img" src="./public/images/hero-img.png" alt="Hero image" />
+        <div class="hero-radial"></div>
+    </div>
+    <!-- projects -->
+    <section class="ourprojects">
+        <!-- leftside -->
+        <div class="projectleft">
+            <span class="leftspan">
+                <p class="dispquote">
+                    <span><img src="https://img.icons8.com/ios/50/FFFFFF/quote-left.png" /><br></span>
+                    A project is complete when it starts working for you, rather than you working for it.<br> — Scott
+                    Allen
+                </p>
+                <h1 class="dispproject">Our Projects <span class="dispprojectspan">-></span></h1>
+            </span>
+            <h2 class="disph1"></h2>
         </div>
-    </section> -->
+        <!-- rightside -->
+        <div class="projectright">
+            <!-- grid section -->
+            <div class="container">
+                <div class="project1 projectnum" id="trekidoo"></div>
+                <div class="project2 projectnum" id="Shk"></div>
+                <div class="project3 projectnum" id="infotech"></div>
+                <div class="project4 projectnum" id="digitran"></div>
+                <div class="project5 projectnum" id="tedx"></div>
+                <div class="project6 projectnum" id="disp6"></div>
+                <div class="project7 projectnum" id="disp7"></div>
+                <div class="project8 projectnum" id="disp8"></div>
+            </div>
+            <!-- content section -->
+            <div class="container2">
+                <div class="projectdisplay">
+                    <span><img class="backbtn" src="https://img.icons8.com/fluency/96/000000/circled-left-2.png" />
+                    </span>
 
-    <section class="pop-up-section">
-        <div class="pop-up-div"></div>
-        <img class="cross-button" src="https://img.icons8.com/ios/50/ffffff/x.png"/>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiperslide1">Slide 1</div>
+                            <div class="swiper-slide swiperslide2">Slide 2</div>
+                            <div class="swiper-slide swiperslide3">Slide 3</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <p class="dispp"></p>
+                </div>
+            </div>
+        </div>
     </section>
-
-
-
-    <section class="top">
-
-    </section>
-
+    <!-- About us -->
 
     <section class="about-us">
         <div class="about-us-sides">
@@ -50,8 +104,8 @@
                 <a class="button-53 right-click-pc">Right Click Here</a>
                 <a class="button-53 right-click-mobile" href="mailto:legalpiratesofficial@gmail.com">Email</a></li>
                 <a class="button-53 right-click-mobile" href=""
-                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalpirates'});return false;">Schedule
-                                time with me</a>
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalpirates'});return false;">Schedule
+                    time with me</a>
                 <div class="right-click-list">
                     <ul>
                         <li><a class="atag-right-click" href="mailto:legalpiratesofficial@gmail.com">Email</a></li>
@@ -75,17 +129,77 @@
         </div>
     </section>
 
-
-    <section class="top"></section>
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+        integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script src="./public/javascript/pop-up.js"></script>
     <script src="./public/javascript/about.js"></script>
+    <script type="module">
+        import * as THREE from 'https://cdn.skypack.dev/three@0.136.0';
+        import { OrbitControls } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls.js';
 
+        const scene = new THREE.Scene();
+
+        const camera = new THREE.PerspectiveCamera(
+            75,
+            window.innerWidth / window.innerHeight,
+            0.1,
+            1000
+        );
+        camera.position.z = 2.5;
+
+        const renderer = new THREE.WebGLRenderer({
+            antialias: true,
+            canvas: document.querySelector('#hero-left')
+        });
+
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableZoom = false;
+
+        const heroLeft = new THREE.Mesh(
+            new THREE.SphereGeometry(),
+            new THREE.MeshBasicMaterial({
+                map: new THREE.TextureLoader().load('public/images/network.jpg')
+            })
+        );
+        scene.add(heroLeft);
+
+        const group = new THREE.Group();
+        group.add(heroLeft);
+        scene.add(group);
+
+        const mouse = {
+            x: 0,
+            y: 0
+        };
+
+        document
+            .querySelector('#hero-left')
+            .addEventListener('mousemove', (e) => {
+                (mouse.x = (e.clientX / innerWidth) * 2 - 1),
+                    (mouse.y = (e.clientY / innerHeight) * 2 + 1);
+            });
+        function animate() {
+            requestAnimationFrame(animate);
+            heroLeft.rotation.y += 0.001;
+            // controls.update();
+            gsap.to(group.rotation, {
+                x: mouse.x * 0.5,
+                y: -mouse.y * 0.5,
+                duration: 2
+            });
+            renderer.render(scene, camera);
+        }
+
+        animate();
+    </script>
+    <script src="./public/javascript/swiper.min.js"></script>
+    <script src="./public/javascript/seeds.js"></script>
+    <script src="./public/javascript/projects.js"></script>
 </body>
 
 </html>
