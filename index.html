@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./public/css/style.css" />
+		<link rel="stylesheet" href="./public/css/about.css" />
 		<title>Legal Pirates</title>
 	</head>
 	<body>
@@ -41,72 +42,122 @@
 			/>
 			<div class="hero-radial"></div>
 		</div>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
-			integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		></script>
-		<script type="module">
-			import * as THREE from 'https://cdn.skypack.dev/three@0.136.0';
-			import { OrbitControls } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls.js';
+	
 
-			const scene = new THREE.Scene();
+		<!-- About us -->
 
-			const camera = new THREE.PerspectiveCamera(
-				75,
-				window.innerWidth / window.innerHeight,
-				0.1,
-				1000
-			);
-			camera.position.z = 2.5;
+    <section class="about-us">
+        <div class="about-us-sides">
+            <div class="left-side">
+                <div class="left-side-inner">
+                    <span>"</span>
+                    <div class="left-inner">
+                        <p>Collaboration is the best way to work. It's only way to work, really.
+                            Everyone's there because they have a set of skills to offer across
+                            the board.
+                        </p>
+                    </div>
+                    <p class="quote-author"> ~ Antony Starr</p>
+                </div>
+                <a class="button-53 right-click-pc">Right Click Here</a>
+                <a class="button-53 right-click-mobile" href="mailto:legalpiratesofficial@gmail.com">Email</a></li>
+                <a class="button-53 right-click-mobile" href=""
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalpirates'});return false;">Schedule
+                                time with me</a>
+                <div class="right-click-list">
+                    <ul>
+                        <li><a class="atag-right-click" href="mailto:legalpiratesofficial@gmail.com">Email</a></li>
+                        <li>
+                            <a class="atag-right-click" href=""
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/legalpirates'});return false;">Schedule
+                                time with me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side">
+                <h1 class="about-heading">About</h1>
+                <p>Legal pirates is a website designing company and a digital marketing with
+                    highly qualified professionals. Our team is highly skilled and
+                    experienced in understanding the general consumer behaviours and
+                    moderating the UX of the website according to the purchase behaviours. Excetional commitment to
+                    quality,delivery optimization and services.
+                </p>
+            </div>
+        </div>
+    </section>
+	
+	<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+	integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script src="./public/javascript/about.js"></script>
+<script type="module">
+	import * as THREE from 'https://cdn.skypack.dev/three@0.136.0';
+	import { OrbitControls } from 'https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls.js';
 
-			const renderer = new THREE.WebGLRenderer({
-				antialias: true,
-				canvas: document.querySelector('#hero-left')
-			});
+	const scene = new THREE.Scene();
 
-			renderer.setPixelRatio(window.devicePixelRatio);
-			renderer.setSize(window.innerWidth, window.innerHeight);
-			const controls = new OrbitControls(camera, renderer.domElement);
-			controls.enableZoom = false;
+	const camera = new THREE.PerspectiveCamera(
+		75,
+		window.innerWidth / window.innerHeight,
+		0.1,
+		1000
+	);
+	camera.position.z = 2.5;
 
-			const heroLeft = new THREE.Mesh(
-				new THREE.SphereGeometry(),
-				new THREE.MeshBasicMaterial({
-					map: new THREE.TextureLoader().load('public/images/network.jpg')
-				})
-			);
-			scene.add(heroLeft);
+	const renderer = new THREE.WebGLRenderer({
+		antialias: true,
+		canvas: document.querySelector('#hero-left')
+	});
 
-			const group = new THREE.Group();
-			group.add(heroLeft);
-			scene.add(group);
+	renderer.setPixelRatio(window.devicePixelRatio);
+	renderer.setSize(window.innerWidth, window.innerHeight);
+	const controls = new OrbitControls(camera, renderer.domElement);
+	controls.enableZoom = false;
 
-			const mouse = {
-				x: 0,
-				y: 0
-			};
+	const heroLeft = new THREE.Mesh(
+		new THREE.SphereGeometry(),
+		new THREE.MeshBasicMaterial({
+			map: new THREE.TextureLoader().load('public/images/network.jpg')
+		})
+	);
+	scene.add(heroLeft);
 
-			document
-				.querySelector('#hero-left')
-				.addEventListener('mousemove', (e) => {
-					(mouse.x = (e.clientX / innerWidth) * 2 - 1),
-						(mouse.y = (e.clientY / innerHeight) * 2 + 1);
-				});
-			function animate() {
-				requestAnimationFrame(animate);
-				heroLeft.rotation.y += 0.001;
-				// controls.update();
-				gsap.to(group.rotation, {
-					x: mouse.x * 0.5,
-					y: -mouse.y * 0.5,
-					duration: 2
-				});
-				renderer.render(scene, camera);
-			}
+	const group = new THREE.Group();
+	group.add(heroLeft);
+	scene.add(group);
 
-			animate();
-		</script>
-	</body>
+	const mouse = {
+		x: 0,
+		y: 0
+	};
+
+	document
+		.querySelector('#hero-left')
+		.addEventListener('mousemove', (e) => {
+			(mouse.x = (e.clientX / innerWidth) * 2 - 1),
+				(mouse.y = (e.clientY / innerHeight) * 2 + 1);
+		});
+	function animate() {
+		requestAnimationFrame(animate);
+		heroLeft.rotation.y += 0.001;
+		// controls.update();
+		gsap.to(group.rotation, {
+			x: mouse.x * 0.5,
+			y: -mouse.y * 0.5,
+			duration: 2
+		});
+		renderer.render(scene, camera);
+	}
+
+	animate();
+</script>
+
+</body>
+
 </html>
