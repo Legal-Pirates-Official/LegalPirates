@@ -176,3 +176,41 @@ footer
     transform: rotate(45deg);
     z-index: 10000;
 }
+
+
+@media (max-width: 860px) {
+    footer
+    {
+        height: fit-content;
+    }
+    .footer-box1 img
+    {
+        height: 15rem;
+        width: 15rem;
+        margin: 2%;
+        border-radius: 10px;
+    }
+    .footer-div
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-box
+    {
+        width: 75%;
+    }
+    .logo-footer
+    {
+        width: 60%;
+    }
+    .footer-box
+    {
+        margin: 5%;
+    }
+    .footer-box2
+    {
+        display: none;
+    }
+}
