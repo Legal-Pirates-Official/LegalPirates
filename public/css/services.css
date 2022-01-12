@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background: #101010;
+}
+
+.navbar
+{
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+.service-main-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* background: linear-gradient(to right, #232526, #414345); */
+  background: url("https://images.unsplash.com/photo-1494995536846-47ab0fc5df1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80")
+    center/cover no-repeat;
+    z-index: 3;
+}
+
+.service-div h1 {
+  position: absolute;
+  font-size: 4rem;
+  color: #fff;
+  left: 10%;
+  float: left;
+  font-family: "Permanent Marker", cursive;
+}
+
+.services-boxes {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0%;
+}
+
+.main-all-boxes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  width: 22rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  background: #fff;
+  transition: all 0.2s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.box1 {
+  background: url("https://images.unsplash.com/photo-1620228885847-9eab2a1adddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80")
+    center/cover no-repeat;
+}
+
+.box2 {
+  background: url("https://images.unsplash.com/photo-1616469832301-ffaeadc68cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    center/cover no-repeat;
+}
+
+.box3 {
+  background: url("https://images.unsplash.com/photo-1517503733723-8ea1cf616798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    center/cover no-repeat;
+}
+
+.box4 {
+  background: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    center/cover no-repeat;
+}
+
+.services-column {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100%;
+}
+
+.columnbox-all {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.columnbox {
+  position: relative;
+  width: 93%;
+  height: 15rem;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border-radius: 10px;
+  margin-top: 3%;
+  font-family: 'Rokkitt', serif;
+
+}
+
+.column-image {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  padding: 1%;
+  overflow: hidden;
+  /* background: url("https://content.techgig.com/photo/83600041/what-it-takes-for-technologies-to-go-from-breakthrough-to-big-time.jpg?27767") center/cover no-repeat; */
+}
+
+.column-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.column-content {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  color: #fff;
+}
+
+
+.wordpress-column
+{
+  width: 93%;
+  height: 100%;
+  flex-direction: row-reverse;
+}
+.web-dev-column
+{
+  width: 93%;
+  height: 100%;
+}
