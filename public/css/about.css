@@ -15,7 +15,7 @@
 
 .about-us {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .about-us-sides {
@@ -27,7 +27,6 @@
   justify-content: center;
   align-items: center;
   background: #101010;
-  overflow: hidden;
 }
 
 .left-side {
@@ -223,6 +222,7 @@
   transform: scale(0);
   transform-origin: top left;
   z-index: 100000000;
+  background: #101010;
 }
 
 .right-click-list.active {
