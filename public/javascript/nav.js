@@ -2,51 +2,36 @@ const homeLink = document.querySelector('.home-link');
 const projectsLink = document.querySelector('.projects-link');
 const aboutLink = document.querySelector('.about-link');
 
+const navTranslate = (
+	link1,
+	link2,
+	link3,
+	translate1,
+	translate2,
+	translate3
+) => {
+	gsap
+		.timeline()
+		.to(link1, { '--translate': translate1 })
+		.to(link2, { '--translate': translate2 })
+		.to(link3, { '--translate': translate3 });
+};
+
 document.querySelectorAll('.nav-link').forEach((link) => {
 	link.addEventListener('click', (e) => {
 		switch (link.getAttribute('data-current')) {
 			case 'home':
-				navTranslate('#home', homeLink, projectsLink, '0', '-100%', 'top top');
+				navTranslate(homeLink, projectsLink, aboutLink, '0', '-100%', '-100%');
 				window.location.href = '#home';
 				break;
 			case 'projects':
-				navTranslate(
-					'#projects',
-					homeLink,
-					projectsLink,
-					'100%',
-					'0',
-					'top top'
-				);
+				navTranslate(homeLink, projectsLink, aboutLink, '-100%', '0', '-100%');
 				window.location.href = '#projects';
 				break;
 			case 'about':
-				navTranslate('#about', projectsLink, aboutLink, '100%', '0', 'top 10%');
+				navTranslate(homeLink, projectsLink, aboutLink, '-100%', '-100%', '0');
 				window.location.href = '#about';
 				break;
 		}
 	});
-});
-
-const navTranslate = (trigger, link1, link2, translate1, translate2, start) => {
-	gsap
-		.timeline({
-			scrollTrigger: {
-				trigger,
-				start
-			}
-		})
-		.to(link1, { '--translate': translate1 })
-		.to(link2, { '--translate': translate2 }, '>-=.2');
-};
-
-navTranslate('#home', homeLink, projectsLink, '0', '-100%', 'top top');
-navTranslate('#projects', homeLink, projectsLink, '100%', '0', 'top top');
-navTranslate('#about', projectsLink, aboutLink, '100%', '0', 'top 10%');
-
-addEventListener('scroll', () => {
-	const observer1 = new IntersectionObserver((entries) => {
-		console.log(entries[0].isVisible);
-	});
-	observer1.observe(aboutLink);
 });
