@@ -43,8 +43,8 @@
 	border-radius: 50%;
 }
 .orbit-1 {
-	height: 80vh;
-	width: 80vh;
+	height: 540px;
+	width: 540px;
 	animation: spin 90s linear 0s infinite;
 	/* overflow: hidden; */
 	border: 2px solid white;
@@ -54,8 +54,8 @@
 	justify-content: center;
 }
 .orbit-2 {
-	height: calc(80vh / 1.7);
-	width: calc(80vh / 1.7);
+	height: calc(540px / 1.7);
+	width: calc(540px/ 1.7);
 
 	border: 2px solid white;
 	position: relative;
@@ -221,12 +221,12 @@
 }
 @media (max-width: 700px) {
 	.orbit-1 {
-		height: 60vh;
-		width: 60vh;
+		height: 400px;
+		width: 400px;
 	}
 	.orbit-2 {
-		height: calc(60vh / 1.7);
-		width: calc(60vh / 1.7);
+		height: calc(400px/ 1.7);
+		width: calc(400px/ 1.7);
 	}
 	.icon,
 	.icon2 {
@@ -246,12 +246,12 @@
 }
 @media (max-width: 630px) {
 	.orbit-1 {
-		height: 50vh;
-		width: 50vh;
+		height: 350px;
+		width: 350px;
 	}
 	.orbit-2 {
-		height: calc(50vh / 1.7);
-		width: calc(50vh / 1.7);
+		height: calc(350px / 1.7);
+		width: calc(350px / 1.7);
 	}
 	.icon,
 	.icon2 {
@@ -265,12 +265,12 @@
 
 @media (max-width: 500px) {
 	.orbit-1 {
-		height: 40vh;
-		width: 40vh;
+		height: 300px;
+		width: 300px;
 	}
 	.orbit-2 {
-		height: calc(40vh / 1.7);
-		width: calc(40vh / 1.7);
+		height: calc(300px / 1.7);
+		width: calc(300px/ 1.7);
 	}
 	.icon,
 	.icon2 {
@@ -287,12 +287,12 @@
 }
 @media (max-width: 430px) {
 	.orbit-1 {
-		height: 35vh;
-		width: 35vh;
+		height: 250px;
+		width: 250px;
 	}
 	.orbit-2 {
-		height: calc(35vh / 1.9);
-		width: calc(35vh / 1.9);
+		height: calc(250px / 1.9);
+		width: calc(250px / 1.9);
 	}
 	.logo {
 		width: 100px;
@@ -301,12 +301,12 @@
 }
 @media (max-width: 390px) {
 	.orbit-1 {
-		height: 30vh;
-		width: 30vh;
+		height: 200px;
+		width: 200px;
 	}
 	.orbit-2 {
-		height: calc(30vh / 1.9);
-		width: calc(30vh / 1.9);
+		height: calc(200px / 1.9);
+		width: calc(200px/ 1.9);
 	}
 	.logo {
 		width: 80px;
