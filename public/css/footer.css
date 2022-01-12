@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 footer
 {
     position: relative;
@@ -43,7 +44,7 @@ footer
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Roboto Slab', serif;
     align-items: center;
 }
 
@@ -74,7 +75,6 @@ footer
     height: 100%;
 }
 
-
 .footer-box1
 {
     position: relative;
@@ -94,6 +94,15 @@ footer
     height: 17rem;
     border-radius: 50%;
     object-fit: cover;
+    transition: all 0.2s ease;
+    z-index: 5;
+    
+}
+
+.footer-box1 img:hover
+{
+    border-radius: 10px;
+    z-index: 1;
 }
 
 
@@ -102,7 +111,7 @@ footer
     position: relative;
     /* width: 35%; */
     font-size: 1.5rem;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Roboto Slab', serif;
     /* border-left: 2px solid rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255); */
 }
@@ -111,7 +120,7 @@ footer
     position: relative;
     /* width: 35%; */
     /* font-size: 1.5rem; */
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Roboto Slab', serif;
     border-left: 2px solid rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
 }
@@ -120,15 +129,28 @@ footer
 {
     position: relative;
     list-style-type: none;
+    transition: all 0.5s ease-in-out;
     /* text-align: center; */
 }
 
-.footer-box2 ul a
+.footer-box2 ul li
+{
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-box2 ul li a
 {
     position: relative;
     text-decoration: none;
     color: #fff;
     font-weight: 100;
+    transition: all 0.5s ease;
+}
+
+.footer-box2 ul li:hover
+{
+    position: relative;
+    transform: translateX(-20px);
 }
 
 .span1
