@@ -7,7 +7,7 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 		switch (link.getAttribute('data-current')) {
 			case 'home':
 				navTranslate('#home', homeLink, projectsLink, '0', '-100%', 'top top');
-				window.location.href = '/#home';
+				window.location.href = '#home';
 				break;
 			case 'projects':
 				navTranslate(
@@ -18,11 +18,11 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					'0',
 					'top top'
 				);
-				window.location.href = '/#projects';
+				window.location.href = '#projects';
 				break;
 			case 'about':
 				navTranslate('#about', projectsLink, aboutLink, '100%', '0', 'top 10%');
-				window.location.href = '/#about';
+				window.location.href = '#about';
 				break;
 		}
 	});
