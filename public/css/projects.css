@@ -1,458 +1,488 @@
-@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 /* js display */
 .active {
-  display: flex !important;
+	display: flex !important;
 }
 .deactive {
-  display: none !important;
+	display: none !important;
 }
 
 .ourprojects {
-  position: relative;
-  height: 300vh;
-  width: 100%;
-  display: flex;
-  background: #101010;
-  transition: height 1s;
+	position: relative;
+	height: 300vh;
+	width: 100%;
+	display: flex;
+	background: #101010;
+	transition: height 1s;
 }
 
 /* our projects left side */
 .projectleft {
-  position: relative;
-  height: 100vh;
-  width: 35%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background: #1b1b1b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	height: 100vh;
+	width: 35%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: #1b1b1b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* quote */
 .leftspan {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-
 .dispquote {
-  position: relative;
-  font-family: "Rokkitt", serif;
-  font-size: 1.5em;
-  width: 75%;
-  color: #fff;
-  margin-bottom: 5em;
-  text-align: center;
-  /* text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
+	position: relative;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.5em;
+	width: 75%;
+	color: #fff;
+	margin-bottom: 5em;
+	text-align: center;
+	/* text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
     0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; */
 }
 
 .dispproject {
-  position: relative;
-  font-family: "Patua One", cursive;
-  font-size: 3rem;
-  color: #fff;
-  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
-    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	position: relative;
+	font-family: 'Patua One', cursive;
+	font-size: 3rem;
+	color: #fff;
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
+		0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
-.dispprojectspan:hover{
-  cursor: pointer;
-  height: 100%;
-  width: 100%;
-  transform: scaleX(10px);
+.dispprojectspan:hover {
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	transform: scaleX(10px);
 }
 
 /* our projects right side */
 .projectright {
-  position: relative;
-  height: 100%;
-  width: 65%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	height: 100%;
+	width: 65%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* grid container */
 .container {
-  position: relative;
-  height: 90%;
-  width: 80%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "project1 project1"
-    "project1 project1"
-    "project1 project1"
-    "project2 project3"
-    "project2 project3"
-    "project2 project3"
-    "project4 project3"
-    "project4 project3"
-    "project4 project3"
-    "project5 project5"
-    "project5 project5"
-    "project5 project5"
-    "project5 project5"
-    "project6 project7"
-    "project6 project7"
-    "project6 project7"
-    "project6 project7"
-    "project8 project8"
-    "project8 project8"
-    "project8 project8";
+	position: relative;
+	height: 90%;
+	width: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		'project1 project1'
+		'project1 project1'
+		'project1 project1'
+		'project2 project3'
+		'project2 project3'
+		'project2 project3'
+		'project4 project3'
+		'project4 project3'
+		'project4 project3'
+		'project5 project5'
+		'project5 project5'
+		'project5 project5'
+		'project5 project5'
+		'project6 project7'
+		'project6 project7'
+		'project6 project7'
+		'project6 project7'
+		'project8 project8'
+		'project8 project8'
+		'project8 project8';
 }
 
 .projectnum {
-  position: relative;
-  border: #fff solid 1px;
-  box-shadow: 0px -1px 21px 6px rgba(255, 255, 255, 0.54);
-  -webkit-box-shadow: 0px -1px 21px 6px rgba(255, 255, 255, 0.54);
-  -moz-box-shadow: 0px -1px 21px 6px rgba(255, 255, 255, 0.54);
-  /* border: #580296 solid 1px;
+	position: relative;
+	border: #fff solid 1px;
+	box-shadow: 0px -1px 21px 6px rgba(255, 255, 255, 0.54);
+	-webkit-box-shadow: 0px -1px 21px 6px rgba(255, 255, 255, 0.54);
+	-moz-box-shadow: 0px -1px 21px 6px rgba(255, 255, 255, 0.54);
+	/* border: #580296 solid 1px;
   box-shadow: 0px -1px 21px 3px #580296;
   -webkit-box-shadow: 0px -1px 21px 3px #580296;
   -moz-box-shadow: 0px -1px 21px 3px #580296; */
 }
 
 .project1::after {
-  content: "Trekidoo";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2 ;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'Trekidoo';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project2::after {
-  content: "SHK Aviation";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'SHK Aviation';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project3::after {
-  content: "Infotech";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'Infotech';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project4::after {
-  content: "Digitran";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'Digitran';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project5::after {
-  content: "Tedx";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'Tedx';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project6::after {
-  content: "Trekidoo";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'Trekidoo';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project7::after {
-  content: "Trekidoo";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'Trekidoo';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project8::after {
-  content: "Trekidoo";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #00C5A2;
-  opacity: 0;
-  z-index: 4;
-  transition: opacity 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  font-family: "Patua One", cursive;
-  color: #fff;
-  text-shadow: 3px 3px #101010;
+	content: 'Trekidoo';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #00c5a2;
+	opacity: 0;
+	z-index: 4;
+	transition: opacity 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+	color: #fff;
+	text-shadow: 3px 3px #101010;
 }
 .project1:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .project2:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .project3:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .project4:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .project5:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .project6:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .project7:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 .project8:hover::after {
-  cursor: pointer;
-  opacity: 1;
+	cursor: pointer;
+	opacity: 1;
 }
 
 .project1 {
-  grid-area: project1;
-  background: purple;
-  background: url("/images/Trekidoo.png") center/100% 100% no-repeat;
+	grid-area: project1;
+	background: purple;
+	background: url('/images/Trekidoo.png') center/100% 100% no-repeat;
 }
 
 .project2 {
-  grid-area: project2;
-  background: red;
-  background: url("/images/Shk.png") center/100% 100% no-repeat;
+	grid-area: project2;
+	background: red;
+	background: url('/images/Shk.png') center/100% 100% no-repeat;
 }
 
 .project3 {
-  grid-area: project3;
-  background: orange;
-  background: url("/images/Infotech.png") center/100% 100% no-repeat;
+	grid-area: project3;
+	background: orange;
+	background: url('/images/Infotech.png') center/100% 100% no-repeat;
 }
 
 .project4 {
-  grid-area: project4;
-  background: url("/images/Digitran.png") center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+	grid-area: project4;
+	background: url('/images/Digitran.png') center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .project5 {
-  grid-area: project5;
-  background: grey;
-  background: url("./images/Tedx.png") center/100% 100% no-repeat;
+	grid-area: project5;
+	background: grey;
+	background: url('./images/Tedx.png') center/100% 100% no-repeat;
 }
 
 .project6 {
-  grid-area: project6;
-  background: blue;
+	grid-area: project6;
+	background: blue;
 }
 
 .project7 {
-  grid-area: project7;
-  background: white;
+	grid-area: project7;
+	background: white;
 }
 
 .project8 {
-  grid-area: project8;
-  background: green;
+	grid-area: project8;
+	background: green;
 }
 
 .section2 {
-  height: 100vh;
-  width: 100%;
+	height: 100vh;
+	width: 100%;
 }
 
 /* flex container */
 .container2 {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .projectdisplay {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
 /* bacckbtn */
 .projectdisplay span {
-  position: relative;
-  width: 75%;
+	position: relative;
+	width: 75%;
 }
 
 .backbtn {
-  position: relative;
-  height: 70px;
-  width: 70px;
+	position: relative;
+	height: 70px;
+	width: 70px;
 }
 
 .backbtn:hover {
-  cursor: pointer;
-  transform: translateX(-10px);
+	cursor: pointer;
+	transform: translateX(-10px);
 }
 
 /* display heading */
 .disph1 {
-  position: relative;
-  font-family: "Patua One", cursive;
-  font-size: 3rem;
-  color: #fff;
-  display: none;
-  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
-    0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	position: relative;
+	font-family: 'Patua One', cursive;
+	font-size: 3rem;
+	color: #fff;
+	display: none;
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
+		0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 /* swiper */
 .swiper {
-  position: relative;
-  width: 75%;
-  height: 40%;
+	position: relative;
+	width: 75%;
+	height: 40%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .dispp {
-  font-family: "Rokkitt", serif;
-  font-size: 1.5em;
-  width: 75%;
-  color: #fff;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.5em;
+	width: 75%;
+	color: #fff;
+}
+@media only screen and (max-width: 1150px) {
+	/* our projects */
+
+	.ourprojects {
+		flex-direction: column;
+	}
+
+	.projectleft {
+		height: auto !important;
+		position: static !important;
+		width: 100% !important;
+	}
+
+	.projectright {
+		width: 100% !important;
+	}
+
+	.dispquote {
+		margin: 3em 0 !important;
+		margin-bottom: 1em !important;
+	}
+
+	.dispproject {
+		position: absolute;
+		bottom: -2em;
+	}
+
+	.container {
+		margin-top: 5em;
+	}
 }

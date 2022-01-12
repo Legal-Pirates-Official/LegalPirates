@@ -6,6 +6,7 @@
 	padding: 0%;
 	margin: 0%;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 .hero {
@@ -19,12 +20,14 @@
 .navbar {
 	width: 100%;
 	height: 5rem;
-	position: relative;
+	position: fixed;
 	display: flex;
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(30px);
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 10%;
-	z-index: 3;
+	z-index: 10;
 }
 
 .nav-logo {
@@ -45,7 +48,39 @@
 
 .nav-link {
 	text-align: center;
-	margin: 0 2rem;
+	margin: 0 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+	cursor: pointer;
+}
+
+.nav-link-container .nav-link::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #c72589;
+	transform: translateX(var(--translate));
+	transition: all 0.1s linear;
+}
+.nav-link-container .nav-link::after {
+	content: var(--text);
+	color: white;
+	font-family: 'Zilla Slab', serif;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	inset: 2px;
+	background-color: black;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 1);
 }
 
 .nav-link a {
@@ -219,35 +254,5 @@
 	}
 	.hero-radial {
 		display: none;
-	}
-
-	/* our projects */
-
-	.ourprojects {
-		flex-direction: column;
-	}
-
-	.projectleft {
-		height: auto !important;
-		position: static !important;
-		width: 100% !important;
-	}
-
-	.projectright {
-		width: 100% !important;
-	}
-
-	.dispquote {
-		margin: 3em 0 !important;
-		margin-bottom: 1em !important;
-	}
-
-	.dispproject {
-		position: absolute;
-		bottom: -2em;
-	}
-
-	.container {
-		margin-top: 5em;
 	}
 }
