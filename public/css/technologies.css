@@ -1,0 +1,324 @@
+.flextech {
+	display: flex;
+	background-color: black;
+
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: url(../images/technology/star.jpg) no-repeat center/cover;
+	background-attachment: fixed;
+}
+.spinner-box {
+	height: 100%;
+	position: relative;
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.lefttech {
+	width: 30%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+	height: 100%;
+	position: relative;
+}
+.lefttech h1 {
+	margin: 30% 0rem 0rem 30%;
+
+	color: white;
+	font-size: 3rem;
+	font-family: 'Rokkitt', serif;
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+.orbit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background: blueviolet; */
+	border-radius: 50%;
+}
+.orbit-1 {
+	height: 80vh;
+	width: 80vh;
+	animation: spin 90s linear 0s infinite;
+	/* overflow: hidden; */
+	border: 2px solid white;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.orbit-2 {
+	height: calc(80vh / 1.7);
+	width: calc(80vh / 1.7);
+
+	border: 2px solid white;
+	position: relative;
+
+	/* overflow: hidden; */
+}
+.logo {
+	width: 150px;
+	height: 120px;
+	animation: spin2 90s linear 0s infinite;
+}
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+.icon {
+	position: absolute;
+
+	width: 7rem;
+	height: 7rem;
+	border-radius: 50%;
+	background: url(../images/technology/bubble.png) no-repeat center/cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon2 {
+	position: absolute;
+	top: -5px;
+	width: 7rem;
+	height: 7rem;
+	border-radius: 50%;
+	background: url(../images/technology/bubble2.png) no-repeat center/cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-logo {
+	/* transform: scale(4); */
+	animation: spin2 90s linear 0s infinite;
+}
+.icon1 {
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	top: 0%;
+}
+.icon12 {
+	left: 0%;
+	transform: translateX(-40%);
+	top: 25%;
+}
+.icon13 {
+	right: 0%;
+	transform: translateX(40%);
+	top: 25%;
+}
+.icon14 {
+	top: 80%;
+	left: 10%;
+}
+.icon15 {
+	top: 80%;
+	right: 10%;
+}
+.icon16 {
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	top: 0%;
+}
+.icon17 {
+	left: 0%;
+	transform: translateX(-50%);
+	top: 20%;
+}
+.icon18 {
+	right: 0%;
+	transform: translateX(50%);
+	top: 20%;
+}
+.icon19 {
+	left: 5%;
+	top: 95%;
+	transform: translateY(-70%);
+}
+.icon20 {
+	right: 5%;
+	top: 100%;
+	transform: translateY(-90%);
+}
+.center,
+.center2 {
+	height: 100px;
+	width: 100px;
+
+	/* background: url(../images/logo.png); */
+}
+.center2 img {
+	height: 100%;
+	width: 100%;
+}
+
+.bubble1 {
+	position: absolute;
+	/* left: 30%; */
+	height: 6rem;
+	width: 6rem;
+	background: url(../images/technology/bubble.png) center/cover;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin2 {
+	0% {
+		transform: rotate(360deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@media (max-width: 1300px) {
+	.icon,
+	.icon2 {
+		width: 6rem;
+		height: 6rem;
+	}
+	.icon-logo {
+		height: 50px;
+	}
+}
+@media (max-width: 1000px) {
+	.flextech {
+		flex-direction: column;
+		height: auto;
+	}
+	.lefttech {
+		width: 100%;
+		/* height: 30%; */
+		align-items: center;
+		justify-content: center;
+		height: auto;
+	}
+	.lefttech h1 {
+		margin: 5% 0rem 5% 0rem;
+		text-align: center;
+	}
+	.spinner-box {
+		width: 100%;
+		height: auto;
+		padding: 3rem;
+	}
+}
+@media (max-width: 700px) {
+	.orbit-1 {
+		height: 60vh;
+		width: 60vh;
+	}
+	.orbit-2 {
+		height: calc(60vh / 1.7);
+		width: calc(60vh / 1.7);
+	}
+	.icon,
+	.icon2 {
+		width: 5rem;
+		height: 5rem;
+	}
+	.icon-logo {
+		height: 40px;
+	}
+	.logo {
+		width: 120px;
+		height: 90px;
+	}
+	.spinner-box {
+		padding: 4rem;
+	}
+}
+@media (max-width: 630px) {
+	.orbit-1 {
+		height: 50vh;
+		width: 50vh;
+	}
+	.orbit-2 {
+		height: calc(50vh / 1.7);
+		width: calc(50vh / 1.7);
+	}
+	.icon,
+	.icon2 {
+		width: 4rem;
+		height: 4rem;
+	}
+	.icon-logo {
+		height: 40px;
+	}
+}
+
+@media (max-width: 500px) {
+	.orbit-1 {
+		height: 40vh;
+		width: 40vh;
+	}
+	.orbit-2 {
+		height: calc(40vh / 1.7);
+		width: calc(40vh / 1.7);
+	}
+	.icon,
+	.icon2 {
+		width: 3rem;
+		height: 3rem;
+	}
+	.icon-logo {
+		height: 30px;
+	}
+	.lefttech h1 {
+		font-size: 2rem;
+		margin: 7% 0rem 5% 0rem;
+	}
+}
+@media (max-width: 430px) {
+	.orbit-1 {
+		height: 35vh;
+		width: 35vh;
+	}
+	.orbit-2 {
+		height: calc(35vh / 1.9);
+		width: calc(35vh / 1.9);
+	}
+	.logo {
+		width: 100px;
+		height: 70px;
+	}
+}
+@media (max-width: 390px) {
+	.orbit-1 {
+		height: 30vh;
+		width: 30vh;
+	}
+	.orbit-2 {
+		height: calc(30vh / 1.9);
+		width: calc(30vh / 1.9);
+	}
+	.logo {
+		width: 80px;
+		height: 50px;
+	}
+	.icon,
+	.icon2 {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+	.icon-logo {
+		height: 25px;
+	}
+}
