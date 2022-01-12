@@ -8,6 +8,7 @@
 	width: 100%;
 	position: relative;
 	background: url(../images/technology/star.jpg) no-repeat center/cover;
+	background-attachment: fixed;
 }
 .spinner-box {
 	height: 100%;
@@ -32,6 +33,7 @@
 	color: white;
 	font-size: 3rem;
 	font-family: 'Rokkitt', serif;
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 .orbit {
