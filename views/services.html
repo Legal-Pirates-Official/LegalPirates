@@ -5,40 +5,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../public/css/services.css">
     <title>Services | Legal Pirates</title>
 </head>
 
 <body>
-    <section class="update-main-section">
-        <div class="update-div">
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="../public/images/logo-gold-transparent.png" alt="Legal pirates" />
+        </div>
+        <ul class="nav-link-container">
+            <li class="nav-link"><a href="#home">Home</a></li>
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="service-main-section">
+        <div class="service-div">
             <h1>Services</h1>
         </div>
     </section>
-    <section class="updates-boxes">
+    <section class="services-boxes">
         <div class="main-all-boxes">
 
-            <div class="box box1"></div>
-            <div class="box box2"></div>
-            <div class="box box3"></div>
-            
+            <a href="#mobile-app-column">
+                <div class="box box1 mobile-app-box"></div>
+            </a>
+            <a href="#wordpress-column">
+                <div class="box box2 wordpress-box"></div>
+            </a>
+            <a href="#web-dev-column">
+                <div class="box box3 web-dev-box"></div>
+            </a>
         </div>
     </section>
-    <section class="updates-column">
+    <section class="services-column">
         <div class="columnbox-all">
-            <div class="columnbox">
+            <div class="columnbox mobile-app-column" id="mobile-app-column">
                 <div class="column-image">
-                    <img src="https://content.techgig.com/photo/83600041/what-it-takes-for-technologies-to-go-from-breakthrough-to-big-time.jpg?27767" alt="">
+                    <img src="https://images.unsplash.com/photo-1620228885847-9eab2a1adddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
+                        alt="">
                 </div>
                 <div class="column-content">
-                    <h2>Heading</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis soluta, ea maiores expedita
-                        iure iusto inventore similique odit architecto minus, alias velit? Suscipit, recusandae esse.
+                    <h2>Mobile App Developing</h2>
+                    <p>Your cross-platform mobile app will enable employees to work more efficiently our customers to
+                        interact with you, no matter where they are or what mobile device they use.
+                    </p>
+                    <p>The tools used for making a mobile app was React-Native, Node, Mysql, Mongo and so on</p>
+                </div>
+            </div>
+
+
+
+            <div class="columnbox wordpress-column" id="wordpress-column">
+                <div class="column-image">
+                    <img src="https://images.unsplash.com/photo-1616469832301-ffaeadc68cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt="">
+                </div>
+                <div class="column-content">
+                    <h2>Wordpress</h2>
+                    <p>WordPress powers more than 17% of the web - a figure that rises every day.Everything from simple
+                        websites, to blogs, to complex portals and enterprise websites, and even applications, are built
+                        with WordPress.
+                    </p>
+                    <p> WordPress combines simplicity for users and publishers with under-the-hood complexity for
+                        developers. This makes it flexible while still being easy-to-use.</p>
+                    <p>Here are some of the features
+                    <ol>
+                        <li>Publish with Ease</li>
+                        <li>Easy Theme System</li>
+                        <li>Full Standards Compliance</li>
+                        <li>Publishing Tools</li>
+                    </ol>
                     </p>
                 </div>
             </div>
+
+
+
+            <div class="columnbox web-dev-column" id="web-dev-column">
+                <div class="column-image">
+                    <img src="https://images.unsplash.com/photo-1620228885847-9eab2a1adddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
+                        alt="">
+                </div>
+                <div class="column-content">
+                    <h2>Website Developing</h2>
+                    <p>We can Develop complex and robust web applications. Our team has experience with all popular web
+                        technologies, open source solutions and is fully capable of developing custom pieces when
+                        needed.</p>
+                    <p>We develop professional and beautiful websites that reflect the brand of your business or
+                        organisation. The wide range of services offered by us includes </p>
+                    <p>website design and development, customised web application, web hosting, web programming, website
+                        redesign etc. </p>
+                    <p>The tools used to make a website was HTML, CSS, Javascript, ReactJS, AngularJS, NodeJS, MySQL,
+                        MongoDB</p>
+                </div>
+            </div>
+
         </div>
     </section>
+
+
+
+
+    <script src="../public/javascript/services.js"></script>
 </body>
 
 </html>
