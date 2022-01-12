@@ -1,89 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-		<div class="hero current-section" id="home">
-			<nav class="navbar">
-				<div class="nav-logo">
-					<img
-						src="./public/images/logo-gold-transparent.png"
-						alt="Legal pirates"
-					/>
-				</div>
-				<ul class="nav-link-container">
-					<li class="nav-link home-link" data-current="home" style="--text:'Home'; --translate:0;">
-						<a href="#home">Home</a></li>
-					<li class="nav-link projects-link" data-current="projects" style="--text:'Projects';--translate:-110%;"><a href="#projects">Projects</a></li>
-					<li class="nav-link technologies-link" data-current="technologies" style="--text:'Technologies';--translate:-110%;"><a href="#technologies">Technologies</a></li>
-					<li class="nav-link about-link" data-current="about" style="--text:'About';--translate:-110%;"><a href="#about">About</a></li>
-				</ul>
-				<div class="ham-btn"><span class="ham-middle"></span></div>
-			</nav>
-			<div class="hero-content">
-				<canvas id="hero-left"></canvas>
-				<h1 class="hero-title">LEGAL PIRATES</h1>
-				<h3 class="hero-tagline">The Legacy Of Tech Era</h3>
-				<div class="hero-buttons">
-					<a href="#about" class="hero-know-more">Know more</a>
-					<div class="hero-buttons-line"></div>
-					<a href="#contact" class="hero-lets-talk">Let's talk</a>
-				</div>
-			</div>
-			<img
-				class="hero-img"
-				src="./public/images/hero-img.png"
-				alt="Hero image"
-			/>
-			<div class="hero-radial"></div>
-		</div>
-		<!-- projects -->
-		<section class="ourprojects" id="projects">
-			<!-- leftside -->
-			<div class="projectleft">
-			  <span class="leftspan">
-				<p class="dispquote">
-				  <span><img src="https://img.icons8.com/ios/50/FFFFFF/quote-left.png"/><br></span>
-				   A project is complete when it starts working for you, rather than you working for it.<br> — Scott Allen
-				</p>
-				<h1 class="dispproject">Our Projects <span class="dispprojectspan">-></span></h1>
-			  </span>
-			  <h2 class="disph1"></h2>
-			</div>
-			<!-- rightside -->
-			<div class="projectright">
-			  <!-- grid section -->
-			  <div class="container">
-				<div class="project1 projectnum" id="trekidoo"></div>
-				<div class="project2 projectnum" id="Shk"></div>
-				<div class="project3 projectnum" id="infotech"></div>
-				<div class="project4 projectnum" id="legalcoders"></div>
-				<div class="project5 projectnum" id="tedx"></div>
-				<!-- <div class="project6 projectnum" id="disp6"></div>
-				<div class="project7 projectnum" id="disp7"></div>
-				<div class="project8 projectnum" id="disp8"></div> -->
-			  </div>
-			  <!-- content section -->
-			  <div class="container2">
-				<div class="projectdisplay">
-				  <span
-					><img
-					  class="backbtn"
-					  src="https://img.icons8.com/fluency/96/000000/circled-left-2.png"
-					/>
-				  </span>
-	  
-				  <div class="swiper mySwiper">
-					<div class="swiper-wrapper">
-					  <div class="swiper-slide swiperslide1"></div>
-					  <div class="swiper-slide swiperslide2"></div>
-					  <div class="swiper-slide swiperslide3"></div>
-					</div>
-					<div class="swiper-pagination"></div>
-				  </div>
-				  <p class="dispp"></p>
-				</div>
-			  </div>
-			</div>
-		  </section>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/nav.css" />
+    <link rel="stylesheet" href="./public/css/footer.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="stylesheet" href="./public/css/about.css" />
+    <link rel="stylesheet" href="./public/css/pop-up.css" />
+    <link rel="stylesheet" href="./public/css/technologies.css" />
+    <link rel="stylesheet" href="./public/css/projects.css" />
+    <!-- <link rel="stylesheet" href="./public/css/splide.min.css"> -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>Legal Pirates</title>
+</head>
 
 <body>
     <!-- Hero -->
@@ -92,20 +25,20 @@
         <img class="cross-button" src="https://img.icons8.com/ios/50/ffffff/x.png" />
     </section>
     <div class="hero current-section" id="home">
-        <nav class="navbar">
+        <nav class="navbar" style="--blur:0">
             <div class="nav-logo">
                 <img src="./public/images/logo-gold-transparent.png" alt="Legal pirates" />
             </div>
             <ul class="nav-link-container">
-                <li class="nav-link home-link" data-current="home" style="--text:'Home'; --translate:0;">
+                <li class="nav-link home-link" data-current="home" style="--text:'Home'; --translate:0;--after-color:transparent">
                     <a href="#home">Home</a>
                 </li>
-                <li class="nav-link projects-link" data-current="projects" style="--text:'Projects';--translate:-110%;">
+                <li class="nav-link projects-link" data-current="projects" style="--text:'Projects';--translate:-110%;--after-color:transparent">
                     <a href="#projects">Projects</a>
                 </li>
                 <li class="nav-link technologies-link" data-current="technologies"
-                    style="--text:'Technologies';--translate:-110%;"><a href="#technologies">Technologies</a></li>
-                <li class="nav-link about-link" data-current="about" style="--text:'About';--translate:-110%;"><a
+                    style="--text:'Technologies';--translate:-110%;--after-color:transparent"><a href="#technologies">Technologies</a></li>
+                <li class="nav-link about-link" data-current="about" style="--text:'About';--translate:-110%;--after-color:transparent"><a
                         href="#about">About</a></li>
             </ul>
             <div class="ham-btn"><span class="ham-middle"></span></div>
@@ -172,7 +105,7 @@
     </section>
 
     <!-- Technologies -->
-    <div class="flextech">
+    <div class="flextech" id="technologies">
         <div class="lefttech">
             <h1>TECHNOLOGY <br> WE USE</h1>
         </div>

@@ -83,3 +83,23 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 document.querySelector('.ham-btn').addEventListener('click', (e) => {
 	document.querySelector('.nav-link-container').classList.toggle('open');
 });
+
+addEventListener('scroll', (e) => {
+	const scrollTop = window.scrollY;
+	if (scrollTop == 0) {
+		gsap
+			.timeline()
+			.to('.navbar', { '--blur': '0', backgroundColor: 'transparent' })
+			.to('.nav-link', { '--after-color': 'transparent' });
+	} else {
+		gsap
+			.timeline({
+				scrollTrigger: {
+					trigger: '#projects',
+					start: 'top top'
+				}
+			})
+			.to('.navbar', { '--blur': '30px', backgroundColor: 'black' })
+			.to('.nav-link', { '--after-color': 'black' });
+	}
+});
