@@ -22,36 +22,36 @@ const heading = [
 
 const sliderImages = [
 	[
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001897/projects/Trekidoo/trekidoo1_egcsid.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001897/projects/Trekidoo/trekidoo2_xmavkt.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001899/projects/Trekidoo/trekidoo3_x6bwul.png'
+		'./public/images/projects/Trekidoo/trekidoo1.png',
+		'./public/images/projects/Trekidoo/trekidoo2.png',
+		'./public/images/projects/Trekidoo/trekidoo3.png'
 	],
 	[
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001895/projects/LP-Aircraft-company/lp-aircraft-company-1_zstksm.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001896/projects/LP-Aircraft-company/lp-aircraft-company-3_qwvqft.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001895/projects/LP-Aircraft-company/lp-aircraft-company-2_wjp5eq.png'
+		'./public/images/projects/LP-Aircraft-company/lp-aircraft-company-1.png',
+		'./public/images/projects/LP-Aircraft-company/lp-aircraft-company-2.png',
+		'./public/images/projects/LP-Aircraft-company/lp-aircraft-company-3.png'
 	],
 	[
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001895/projects/Infotech/infotech-1_b2qr47.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001896/projects/Infotech/infotech-2_svplwz.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001895/projects/Infotech/infotech-3_hm3ufx.png'
+		'./public/images/projects/Infotech/infotech-1.png',
+		'./public/images/projects/Infotech/infotech-2.png',
+		'./public/images/projects/Infotech/infotech-3.png'
 	],
 	[
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642006215/projects/Legal-Coders/legal-coders-2_totfv2.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642006216/projects/Legal-Coders/legal-coders-1_fyukff.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642006214/projects/Legal-Coders/legal-coders-3_yucmjy.png'
+		'./public/images/projects/Legal-Coders/legal-coders-1.png',
+		'./public/images/projects/Legal-Coders/legal-coders-2.png',
+		'./public/images/projects/Legal-Coders/legal-coders-3.png'
 	],
 	[
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001896/projects/TEDx/tedx-1_kijwcq.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001896/projects/TEDx/tedx-2_yv9o88.png',
-		'https://res.cloudinary.com/legal-pirates/image/upload/v1642001896/projects/TEDx/tedx-3_rg5cbf.png'
+		'./public/images/projects/TEDx/tedx-1.png',
+		'./public/images/projects/TEDx/tedx-2.png',
+		'./public/images/projects/TEDx/tedx-3.png'
 	]
 ];
 
 const image = [
-	'https://res.cloudinary.com/legal-pirates/image/upload/v1642001897/projects/Trekidoo/trekidoo1_egcsid.png',
-	'https://res.cloudinary.com/legal-pirates/image/upload/v1642001895/projects/LP-Aircraft-company/lp-aircraft-company-2_wjp5eq.png',
-	'https://res.cloudinary.com/legal-pirates/image/upload/v1642001896/projects/Infotech/infotech-4_etazjo.png',
-	'https://res.cloudinary.com/legal-pirates/image/upload/v1642006215/projects/Legal-Coders/legal-coders-2_totfv2.png',
-	'https://res.cloudinary.com/legal-pirates/image/upload/v1642001896/projects/TEDx/tedx-1_kijwcq.png'
+	'./public/images/projects/Trekidoo/trekidoo1.png',
+	'./public/images/projects/LP-Aircraft-company/lp-aircraft-company-1.png',
+	'./public/images/projects/Infotech/infotech-4.png',
+	'./public/images/projects/Legal-Coders/legal-coders-2.png',
+	'./public/images/projects/TEDx/tedx-1.png'
 ];
