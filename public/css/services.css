@@ -322,6 +322,10 @@ body
     width: 90%;
     text-align: justify;
   }
+  .column-content h2
+  {
+    text-align: center;
+  }
   .footer
   {
     margin: 0;
