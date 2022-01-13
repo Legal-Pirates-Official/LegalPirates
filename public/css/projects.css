@@ -362,6 +362,16 @@
 	align-items: center;
 }
 
+.swiperslide1{
+	
+}
+.swiperslide2{
+	background: url('../images/projects/Trekidoo/trekidoo2.png');
+}
+.swiperslide3{
+	background: url('../images/projects/Trekidoo/trekidoo3.png');
+}
+
 .projectdisplay {
 	position: relative;
 	height: 100vh;
@@ -378,6 +388,7 @@
 	position: relative;
 	width: 75%;
 	transform: translateY(80%);
+	/* margin-bottom: 19%; */
 }
 
 .backbtn {
@@ -445,6 +456,7 @@
 	/* our projects */
 
 	.ourprojects {
+		height: 170vh;
 		flex-direction: column;
 	}
 
@@ -468,7 +480,12 @@
 		bottom: -2em;
 	}
 
+	.projectdisplay span{
+		margin-bottom: 19%;
+	}
+
 	.container {
+		height: 80%;
 		margin-top: 5em;
 	}
 }
