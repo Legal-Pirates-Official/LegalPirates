@@ -37,14 +37,14 @@ const sliderImages = [
 		'./public/images/projects/Infotech/infotech-3.png'
 	],
 	[
-		'.public//images/projects/Legal-Coders/legal-coders-1.png',
-		'.public//images/projects/Legal-Coders/legal-coders-2.png',
-		'.public//images/projects/Legal-Coders/legal-coders-3.png'
+		'./public/images/projects/Legal-Coders/legal-coders-1.png',
+		'./public/images/projects/Legal-Coders/legal-coders-2.png',
+		'./public/images/projects/Legal-Coders/legal-coders-3.png'
 	],
 	[
-		'../images/projects/TEDx/tedx-1.png',
-		'../images/projects/TEDx/tedx-2.png',
-		'../images/projects/TEDx/tedx-3.png'
+		'./public/images/projects/TEDx/tedx-1.png',
+		'./public/images/projects/TEDx/tedx-2.png',
+		'./public/images/projects/TEDx/tedx-3.png'
 	]
 ];
 
