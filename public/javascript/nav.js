@@ -61,7 +61,7 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					'0',
 					'-110%'
 				);
-				window.location.href = '#projects';
+				window.location.href = '#technologies';
 				break;
 			case 'about':
 				navTranslate(
