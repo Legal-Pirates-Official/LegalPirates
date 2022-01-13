@@ -7,21 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../public/css/nav.css">
+    <link rel="stylesheet" href="../public/css/footer.css">
+    <link rel="stylesheet" href="../public/css/pop-up.css">
     <link rel="stylesheet" href="../public/css/services.css">
+
     <title>Services | Legal Pirates</title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <!-- navbar -->
+    <nav class="navbar" style="--blur:0">
         <div class="nav-logo">
             <img src="../public/images/logo-gold-transparent.png" alt="Legal pirates" />
         </div>
         <ul class="nav-link-container">
-            <li class="nav-link"><a href="#home">Home</a></li>
-            <li class="nav-link"><a href="#about">About</a></li>
-            <li class="nav-link"><a href="#contact">Contact Us</a></li>
+            <li class="nav-link home-link" data-current="home"
+                style="--text:'Home'; --translate:0;--after-color:transparent">
+                <a href="#home">Home</a>
+            </li>
+            <li class="nav-link projects-link" data-current="projects"
+                style="--text:'Projects';--translate:-110%;--after-color:transparent">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="nav-link technologies-link" data-current="technologies"
+                style="--text:'Technologies';--translate:-110%;--after-color:transparent"><a
+                    href="#technologies">Technologies</a></li>
+            <li class="nav-link about-link" data-current="about"
+                style="--text:'About';--translate:-110%;--after-color:transparent"><a href="#about">About</a></li>
         </ul>
+        <div class="ham-btn"><span class="ham-middle"></span></div>
     </nav>
+
+
+    <!-- pop-up-section -->
+    <!-- <section class="pop-up-section">
+        <div class="pop-up-div"></div>
+        <img class="cross-button" src="https://img.icons8.com/ios/50/ffffff/x.png" />
+    </section> -->
+
+
+
     <section class="service-main-section">
         <div class="service-div">
             <h1>Services</h1>
@@ -87,7 +112,7 @@
 
             <div class="columnbox web-dev-column" id="web-dev-column">
                 <div class="column-image">
-                    <img src="https://images.unsplash.com/photo-1620228885847-9eab2a1adddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
+                    <img src="https://images.unsplash.com/photo-1517503733723-8ea1cf616798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                         alt="">
                 </div>
                 <div class="column-content">
@@ -107,9 +132,45 @@
         </div>
     </section>
 
+    <!-- footer -->
+    <footer>
+        <section class="footer">
+            <div class="footer-div">
+                <div class="footer-box footer-box1">
+                    <div class="social-media-icons">
+                        <a href="https://www.instagram.com/legalpirates/" target="_blank"><img
+                                class="instagram-social-media" src="../public/images/instgram.png" alt="Instgram"></a>
+                        <a href="https://www.linkedin.com/company/legal-pirates/" target="_blank"><img
+                                class="linkedin-social-media" src="../public/images/Linkedin-Logo.png"
+                                alt="Linkedin"></a>
+                    </div>
+                </div>
+                <div class="footer-box footer-box3">
+                    <div class="logo-footer">
+                        <img src="../public/images/logo-gold-transparent.png" alt="LP">
+                    </div>
+                    <div class="heading-footer">
+                        <h1>Legal Pirates</h1>
+                    </div>
+                </div>
+                <div class="footer-box footer-box2">
+                    <!-- <h1>Legal Pirates</h1> -->
+                    <h2>Overview</h2>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="">Technologies</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Home</a></li>
+                    </ul>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 
 
+    <!-- <script src="../public/javascript/pop-up.js"></script> -->
     <script src="../public/javascript/services.js"></script>
 </body>
 
