@@ -16,7 +16,7 @@
 
 .ourprojects {
 	position: relative;
-	height: 300vh;
+	height: 230vh;
 	width: 100%;
 	display: flex;
 	background: #101010;
@@ -93,7 +93,7 @@
 	width: 80%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	gap: 0px 0px;
 	grid-auto-flow: row;
 	grid-template-areas:
@@ -109,14 +109,7 @@
 		'project5 project5'
 		'project5 project5'
 		'project5 project5'
-		'project5 project5'
-		'project6 project7'
-		'project6 project7'
-		'project6 project7'
-		'project6 project7'
-		'project8 project8'
-		'project8 project8'
-		'project8 project8';
+		'project5 project5';
 }
 
 .projectnum {
