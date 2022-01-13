@@ -22,18 +22,17 @@
 .lefttech {
 	width: 30%;
 	display: flex;
-	align-items: flex-start;
-	justify-content: left;
+	align-items: center;
+	justify-content: right;
 	height: 100%;
 	position: relative;
 }
 .lefttech h1 {
-	margin: 30% 0rem 0rem 30%;
-
 	color: white;
 	font-size: 3rem;
 	font-family: 'Rokkitt', serif;
-	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
+		0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 .orbit {

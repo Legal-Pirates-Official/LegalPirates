@@ -189,7 +189,7 @@
 	text-shadow: 3px 3px #101010;
 }
 .project4::after {
-	content: 'Digitran';
+	content: 'Legal Coders';
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -318,48 +318,39 @@
 
 .project1 {
 	grid-area: project1;
-	background: purple;
-	background: url('/images/Trekidoo.png') center/100% 100% no-repeat;
+	background: center/100% 100% no-repeat;
 }
 
 .project2 {
 	grid-area: project2;
-	background: red;
-	background: url('/images/Shk.png') center/100% 100% no-repeat;
+	background: center/100% 100% no-repeat;
 }
 
 .project3 {
 	grid-area: project3;
-	background: orange;
-	background: url('/images/Infotech.png') center/100% 100% no-repeat;
+	background: center/100% 100% no-repeat;
 }
 
 .project4 {
 	grid-area: project4;
-	background: url('/images/Digitran.png') center;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background: center/100% 100% no-repeat;
 }
 
 .project5 {
 	grid-area: project5;
-	background: grey;
-	background: url('./images/Tedx.png') center/100% 100% no-repeat;
+	background: center/100% 100% no-repeat;
 }
 
 .project6 {
 	grid-area: project6;
-	background: blue;
 }
 
 .project7 {
 	grid-area: project7;
-	background: white;
 }
 
 .project8 {
 	grid-area: project8;
-	background: green;
 }
 
 .section2 {
@@ -389,9 +380,11 @@
 }
 
 /* bacckbtn */
+
 .projectdisplay span {
 	position: relative;
 	width: 75%;
+	transform: translateY(80%);
 }
 
 .backbtn {
@@ -426,7 +419,7 @@
 .swiper-slide {
 	text-align: center;
 	font-size: 18px;
-	background: #fff;
+	background: center/100% 100% no-repeat;
 	/* Center slide text vertically */
 	display: -webkit-box;
 	display: -ms-flexbox;
