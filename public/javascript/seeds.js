@@ -1,20 +1,17 @@
 const para = [
-	'Cras1 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.',
-	'Cras2 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.',
-	'Cras3 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.',
-	'Cras4 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.',
-	'Cras5 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.',
-	'Cras6 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.',
-	'Cras7 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.',
-	'Cras8 pretium metus pulvinar ultricies auctor. In varius purus blandit sem mollis tristique curba sed lorem vel ligula pulvinar porttitor. Proin sit amet mauris eleifend amet, lacus asfd ligula viverra sagittis at at odio aliquam erat volutpat suspendisse sagittis lorem sum bear only.'
+	'Travel articles that get tourists talking, city guides that shape adventures or web copy that builds brands; whatever your travel writing requirements, we can help.',
+	'LP Aircraft Academy is a multidisciplinary institution offering professional courses in the field of aviation. LP Aircraft Academy was established in 2020 with a great visionary, to revolutionize the way people are getting trained for Aviation industry.',
+	'The Department of Information Technology at Chennai Institute of Technology has its own website, INFOTECH. This website provides all of their department information to the students.',
+	'Legal coders is a website designing company with highly qualified professionals. Our team is highly skilled and experienced in understanding the general consumer behaviours and moderating the UX of the website according to the purchase behaviours.',
+	'TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group.'
 ];
 
 const heading = [
-	'Project 1',
-	'Project 2',
-	'Project 3',
-	'Project 4',
-	'Project 5'
+	'Trekidoo',
+	'LP Aircraft Academy',
+	'Infotech',
+	'Digitran',
+	'Tedx'
 ];
 
 const sliderImages = [

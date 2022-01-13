@@ -362,16 +362,6 @@
 	align-items: center;
 }
 
-.swiperslide1{
-	
-}
-.swiperslide2{
-	background: url('../images/projects/Trekidoo/trekidoo2.png');
-}
-.swiperslide3{
-	background: url('../images/projects/Trekidoo/trekidoo3.png');
-}
-
 .projectdisplay {
 	position: relative;
 	height: 100vh;

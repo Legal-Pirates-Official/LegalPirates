@@ -23,6 +23,7 @@ document.querySelectorAll(".projectnum").forEach(function (project, index) {
     document.querySelector(".leftspan").classList.add("deactive");
     document.querySelector(".container2").classList.add("active");
     document.querySelector(".disph1").classList.add("active");
+    window.location.href = "#projects";
     if (screen.width <= 1150) {
       document.querySelector(".ourprojects").style.height = "115vh";
     } else {
