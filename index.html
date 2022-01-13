@@ -25,20 +25,20 @@
         <img class="cross-button" src="https://img.icons8.com/ios/50/ffffff/x.png" />
     </section>
     <div class="hero current-section" id="home">
-        <nav class="navbar">
+        <nav class="navbar" style="--blur:0">
             <div class="nav-logo">
                 <img src="./public/images/logo-gold-transparent.png" alt="Legal pirates" />
             </div>
             <ul class="nav-link-container">
-                <li class="nav-link home-link" data-current="home" style="--text:'Home'; --translate:0;">
+                <li class="nav-link home-link" data-current="home" style="--text:'Home'; --translate:0;--after-color:transparent">
                     <a href="#home">Home</a>
                 </li>
-                <li class="nav-link projects-link" data-current="projects" style="--text:'Projects';--translate:-110%;">
+                <li class="nav-link projects-link" data-current="projects" style="--text:'Projects';--translate:-110%;--after-color:transparent">
                     <a href="#projects">Projects</a>
                 </li>
                 <li class="nav-link technologies-link" data-current="technologies"
-                    style="--text:'Technologies';--translate:-110%;"><a href="#technologies">Technologies</a></li>
-                <li class="nav-link about-link" data-current="about" style="--text:'About';--translate:-110%;"><a
+                    style="--text:'Technologies';--translate:-110%;--after-color:transparent"><a href="#technologies">Technologies</a></li>
+                <li class="nav-link about-link" data-current="about" style="--text:'About';--translate:-110%;--after-color:transparent"><a
                         href="#about">About</a></li>
             </ul>
             <div class="ham-btn"><span class="ham-middle"></span></div>
@@ -105,7 +105,7 @@
     </section>
 
     <!-- Technologies -->
-    <div class="flextech">
+    <div class="flextech" id="technologies">
         <div class="lefttech">
             <h1>TECHNOLOGY <br> WE USE</h1>
         </div>
