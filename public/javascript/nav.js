@@ -36,6 +36,7 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					'-110%'
 				);
 				window.location.href = '#home';
+				document.querySelector('.nav-link-container').classList.remove('open');
 				break;
 			case 'projects':
 				navTranslate(
@@ -49,6 +50,7 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					'-110%'
 				);
 				window.location.href = '#projects';
+				document.querySelector('.nav-link-container').classList.remove('open');
 				break;
 			case 'technologies':
 				navTranslate(
@@ -62,6 +64,7 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					'-110%'
 				);
 				window.location.href = '#technologies';
+				document.querySelector('.nav-link-container').classList.remove('open');
 				break;
 			case 'about':
 				navTranslate(
@@ -75,6 +78,7 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					'0'
 				);
 				window.location.href = '#about';
+				document.querySelector('.nav-link-container').classList.remove('open');
 				break;
 		}
 	});
@@ -84,22 +88,24 @@ document.querySelector('.ham-btn').addEventListener('click', (e) => {
 	document.querySelector('.nav-link-container').classList.toggle('open');
 });
 
-addEventListener('scroll', (e) => {
-	const scrollTop = window.scrollY;
-	if (scrollTop == 0) {
-		gsap
-			.timeline()
-			.to('.navbar', { '--blur': '0', backgroundColor: 'transparent' })
-			.to('.nav-link', { '--after-color': 'transparent' });
-	} else {
-		gsap
-			.timeline({
-				scrollTrigger: {
-					trigger: '#projects',
-					start: 'top top'
-				}
-			})
-			.to('.navbar', { '--blur': '30px', backgroundColor: 'black' })
-			.to('.nav-link', { '--after-color': 'black' });
-	}
-});
+if (innerWidth >= 700) {
+	addEventListener('scroll', (e) => {
+		const scrollTop = window.scrollY;
+		if (scrollTop == 0) {
+			gsap
+				.timeline()
+				.to('.navbar', { '--blur': '0', backgroundColor: 'transparent' })
+				.to('.nav-link', { '--after-color': 'transparent' });
+		} else {
+			gsap
+				.timeline({
+					scrollTrigger: {
+						trigger: '#projects',
+						start: 'top top'
+					}
+				})
+				.to('.navbar', { '--blur': '30px', backgroundColor: 'black' })
+				.to('.nav-link', { '--after-color': 'black' });
+		}
+	});
+}

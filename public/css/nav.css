@@ -130,6 +130,9 @@
 		transform: translateY(-200%);
 		z-index: -1;
 	}
+	.navbar {
+		background-color: black;
+	}
 
 	.nav-link-container.open {
 		transform: translateY(0);
