@@ -66,25 +66,6 @@ document.querySelectorAll('.projectnum').forEach(function (project, index) {
 			dispp.innerHTML = para[4];
 			project.style.backgroundImage = `url(${image[4]})`;
 			break;
-		// case 5:
-		// 	disphead.innerHTML = heading[5];
-		// 	dispp.innerHTML = para[5];
-		// 	project.style.backgroundImage = `url(${image[5]})`;
-		// 	break;
-		// case 6:
-		// 	disphead.innerHTML = heading[6];
-		// 	dispp.innerHTML = para[6];
-		// 	project.style.backgroundImage = `url(${image[6]})`;
-		// 	break;
-		// case 7:
-		// 	disphead.innerHTML = heading[7];
-		// 	dispp.innerHTML = para[7];
-		// 	project.style.backgroundImage = `url(${image[7]})`;
-		// 	break;
-		// default:
-		// 	disphead.innerHTML = 'Something Went Wrong';
-		// 	dispp.innerHTML = 'Please Refresh the Page';
-		// 	break;
 	}
 });
 
