@@ -1,123 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-footer
-{
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    background-color: #101010;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+footer {
+	position: relative;
+	width: 100%;
+	height: 30vh;
+	background-color: #101010;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 
-.footer
-{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.footer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
-.footer-div
-{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.footer-div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
-.footer-box
-{
-    position: relative;
-    width: 30%;
-    height: 75%;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Roboto Slab', serif;
-    align-items: center;
+.footer-box {
+	position: relative;
+	width: 30%;
+	height: 75%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Roboto Slab', serif;
+	align-items: center;
 }
 
-.heading-footer
-{
-    position: relative;
-    width: 100%;
-    /* height: 50%; */
-    text-align: center;
-    /* margin: 2%; */
+.heading-footer {
+	position: relative;
+	width: 100%;
+	/* height: 50%; */
+	text-align: center;
+	/* margin: 2%; */
 }
 
-.logo-footer
-{
-    position: relative;
-    width: 40%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.logo-footer {
+	position: relative;
+	width: 40%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
-.logo-footer img
-{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.logo-footer img {
+	position: relative;
+	width: 8rem;
 }
 
-.footer-box1
-{
-    position: relative;
-    width: 30%;
-    height: 75%;
-    margin: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.footer-box1 {
+	position: relative;
+	width: 30%;
+	height: 75%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.social-media-icons
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1.5rem;
-    width: 100%;
-    height: 50%;
-    color: #fff;
-    z-index: 100;
+.social-media-icons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.5rem;
+	width: 100%;
+	height: 50%;
+	color: #fff;
+	z-index: 100;
 }
-.social-media-icons a
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
+.social-media-icons a {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
 }
 
-.linkedin-social-media
-{
-    width: 40%;
-    margin-top: -50px;
+.linkedin-social-media {
+	width: 8rem;
+	margin-top: -50px;
 }
 
-.instagram-social-media
-{
-    width: 50%;
+.instagram-social-media {
+	width: 10rem;
 }
 /*
 .social-media-all-div
@@ -147,96 +134,68 @@ footer
     z-index: 1;
 } */
 
-
-.footer-box2
-{
-    position: relative;
-    /* width: 35%; */
-    font-size: 1.5rem;
-    font-family: 'Roboto Slab', serif;
-    /* border-left: 2px solid rgb(255, 255, 255);
+.footer-box2 {
+	position: relative;
+	/* width: 35%; */
+	font-size: 1.1rem;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	/* border-left: 2px solid rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255); */
 }
-.footer-box3
-{
-    position: relative;
-    height: 75%;
-    /* width: 35%; */
-    /* font-size: 1.5rem; */
-    font-family: 'Roboto Slab', serif;
-    border-left: 2px solid rgb(255, 255, 255);
-    border-right: 2px solid rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.footer-box3 {
+	position: relative;
+	height: 75%;
+	/* width: 35%; */
+	/* font-size: 1.5rem; */
+	font-family: 'Roboto Slab', serif;
+	border-left: 2px solid rgb(255, 255, 255);
+	border-right: 2px solid rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.footer-box2 ul
-{
-    position: relative;
-    list-style-type: none;
-    transition: all 0.5s ease-in-out;
-    /* text-align: center; */
+.footer-box2 ul {
+	position: relative;
+	list-style-type: none;
+	transition: all 0.5s ease-in-out;
+	/* text-align: center; */
 }
 
-.footer-box2 ul li
-{
-    transition: all 0.2s ease-in-out;
+.footer-box2 ul li {
+	transition: all 0.2s ease-in-out;
 }
 
-.footer-box2 ul li a
-{
-    position: relative;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 100;
-    transition: all 0.5s ease;
+.footer-box2 ul li a {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 100;
+	transition: all 0.5s ease;
 }
 
-.footer-box2 ul li:hover
-{
-    position: relative;
-    transform: translateX(-20px);
+.footer-box2 ul li:hover {
+	position: relative;
+	transform: translateX(-20px);
 }
 
-
-
-@media (max-width: 860px) {
-    footer
-    {
-        height: fit-content;
-        margin-top: -30%;
-    }
-    .footer-box1 img
-    {
-        width: 70%;
-    }
-    .linkedin-social-media
-    {
-        width: 60% !important;
-    }
-    .footer-div
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer-box
-    {
-        width: 75%;
-    }
-    .logo-footer
-    {
-        width: 60%;
-    }
-    .footer-box
-    {
-        margin: 5%;
-    }
-    .footer-box2
-    {
-        display: none;
-    }
+@media (max-width: 560px) {
+	.footer-div {
+		flex-direction: column;
+	}
+	footer {
+		height: fit-content;
+	}
+	.footer-box1 {
+		order: 2;
+	}
+	.footer-box2 {
+		display: none;
+	}
+	.footer-box3 {
+		border: 0;
+		width: 100%;
+	}
 }
