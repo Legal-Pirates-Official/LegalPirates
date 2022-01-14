@@ -62,7 +62,7 @@
 
 .dispproject {
 	position: relative;
-	font-family: 'Patua One', cursive;
+	font-family: 'Zilla Slab', serif;
 	font-size: 3rem;
 	color: #fff;
 	text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #e60073, 0 0 40px #e60073,
@@ -470,7 +470,7 @@
 		bottom: -2em;
 	}
 
-	.projectdisplay span{
+	.projectdisplay span {
 		margin-bottom: 19%;
 	}
 
