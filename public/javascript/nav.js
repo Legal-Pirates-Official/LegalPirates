@@ -2,6 +2,7 @@ const homeLink = document.querySelector('.home-link');
 const projectsLink = document.querySelector('.projects-link');
 const technologiesLink = document.querySelector('.technologies-link');
 const aboutLink = document.querySelector('.about-link');
+const servicesLink = document.querySelector('.services-link');
 
 const navTranslate = (
 	link1,
@@ -11,14 +12,16 @@ const navTranslate = (
 	translate1,
 	translate2,
 	translate3,
-	translate4
+	translate4,
+	translate5
 ) => {
 	gsap
 		.timeline()
 		.to(link1, { '--translate': translate1 })
 		.to(link2, { '--translate': translate2 })
 		.to(link3, { '--translate': translate3 })
-		.to(link4, { '--translate': translate4 });
+		.to(link4, { '--translate': translate4 })
+		.to(link4, { '--translate': translate5 });
 };
 
 document.querySelectorAll('.nav-link').forEach((link) => {
@@ -30,7 +33,9 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					projectsLink,
 					technologiesLink,
 					aboutLink,
+					servicesLink,
 					'0',
+					'-110%',
 					'-110%',
 					'-110%',
 					'-110%'
@@ -44,8 +49,10 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					projectsLink,
 					technologiesLink,
 					aboutLink,
+					servicesLink,
 					'-110%',
 					'0',
+					'-110%',
 					'-110%',
 					'-110%'
 				);
@@ -58,9 +65,11 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					projectsLink,
 					technologiesLink,
 					aboutLink,
+					servicesLink,
 					'-110%',
 					'-110%',
 					'0',
+					'-110%',
 					'-110%'
 				);
 				window.location.href = '#technologies';
@@ -72,12 +81,30 @@ document.querySelectorAll('.nav-link').forEach((link) => {
 					projectsLink,
 					technologiesLink,
 					aboutLink,
+					servicesLink,
+					'-110%',
+					'-110%',
+					'-110%',
+					'0',
+					'-110%'
+				);
+				window.location.href = '#about';
+				document.querySelector('.nav-link-container').classList.remove('open');
+				break;
+			case 'services':
+				navTranslate(
+					homeLink,
+					projectsLink,
+					technologiesLink,
+					aboutLink,
+					servicesLink,
+					'-110%',
 					'-110%',
 					'-110%',
 					'-110%',
 					'0'
 				);
-				window.location.href = '#about';
+				window.location.href = '../views/services.html';
 				document.querySelector('.nav-link-container').classList.remove('open');
 				break;
 		}

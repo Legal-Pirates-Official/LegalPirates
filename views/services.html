@@ -23,8 +23,10 @@
         <ul class="nav-link-container">
             <li class="nav-link home-link" data-current="home"
                 style="--text:'Home'; --translate:0;--after-color:transparent">
-                <a href="#home">Home</a>
+                <a href="../index.html">Home</a>
             </li>
+            <li class="nav-link about-link" data-current="about"
+                style="--text:'About';--translate:-110%;--after-color:transparent"><a href="#about">About</a></li>
             <li class="nav-link projects-link" data-current="projects"
                 style="--text:'Projects';--translate:-110%;--after-color:transparent">
                 <a href="#projects">Projects</a>
@@ -32,8 +34,9 @@
             <li class="nav-link technologies-link" data-current="technologies"
                 style="--text:'Technologies';--translate:-110%;--after-color:transparent"><a
                     href="#technologies">Technologies</a></li>
-            <li class="nav-link about-link" data-current="about"
-                style="--text:'About';--translate:-110%;--after-color:transparent"><a href="#about">About</a></li>
+            <li class="nav-link services-link" data-current="services"
+                style="--text:'Technologies';--translate:-110%;--after-color:transparent"><a
+                    href="./services.html">Services</a></li>
         </ul>
         <div class="ham-btn"><span class="ham-middle"></span></div>
     </nav>
@@ -55,6 +58,9 @@
     </section>
     <section class="services-boxes">
         <div class="main-all-boxes">
+            <a href="#portfolio">
+                <div class="box box4 mobile-app-box"></div>
+            </a>
             <a href="#mobile-app-column">
                 <div class="box box1 mobile-app-box"></div>
             </a>
@@ -66,19 +72,36 @@
             </a>
         </div>
     </section>
+
     <section class="services-column">
         <div class="columnbox-all">
+            <div class="columnbox portfolio-column" id="portfolio">
+                <div class="column-content">
+                    <h2>Portfolio</h2>
+                    <p>A portfolio is a collection of financial investments like stocks, bonds, commodities, cash, and cash equivalents, including closed-end funds and exchange traded funds (ETFs). People generally believe that stocks, bonds, and cash comprise the core of a portfolio. A portfolio may contain a wide range of assets including real estate, art, and private investments.
+                    </p>
+                    <a class="portfolio_brouchure" target="_blank" href="../public/images/Portfolio_Brouchure.pdf">Brouchure</a>
+                </div>
+                <div class="column-image">
+                    <img draggable="false"
+                        src="https://images.unsplash.com/photo-1620228885847-9eab2a1adddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
+                        alt="">
+                </div>
+            </div>
+
+
+
             <div class="columnbox mobile-app-column" id="mobile-app-column">
                 <div class="column-image">
-                    <img draggable="false" src="https://images.unsplash.com/photo-1620228885847-9eab2a1adddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
+                    <img draggable="false"
+                        src="https://images.unsplash.com/photo-1620228885847-9eab2a1adddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"
                         alt="">
                 </div>
                 <div class="column-content">
                     <h2>Mobile App Developing</h2>
                     <p>Your cross-platform mobile app will enable employees to work more efficiently our customers to
-                        interact with you, no matter where they are or what mobile device they use.
-                    </p>
-                    <p>The tools used for making a mobile app was React-Native, Node, Mysql, Mongo and so on</p>
+                        interact with you, no matter where they are or what mobile device they use.The tools used for
+                        making a mobile app was React-Native, Node, Mysql, Mongo and so on</p>
                 </div>
             </div>
 
@@ -86,7 +109,8 @@
 
             <div class="columnbox wordpress-column" id="wordpress-column">
                 <div class="column-image">
-                    <img draggable="false" src="https://images.unsplash.com/photo-1616469832301-ffaeadc68cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    <img draggable="false"
+                        src="https://images.unsplash.com/photo-1616469832301-ffaeadc68cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                         alt="">
                 </div>
                 <div class="column-content">
@@ -96,14 +120,7 @@
                         with WordPress.
                     </p>
                     <p> WordPress combines simplicity for users and publishers with under-the-hood complexity for
-                        developers. This makes it flexible while still being easy-to-use.</p>
-                    <p>Here are some of the features
-                    <ol>
-                        <li>Publish with Ease</li>
-                        <li>Easy Theme System</li>
-                        <li>Full Standards Compliance</li>
-                        <li>Publishing Tools</li>
-                    </ol>
+                        developers.
                     </p>
                 </div>
             </div>
@@ -112,7 +129,8 @@
 
             <div class="columnbox web-dev-column" id="web-dev-column">
                 <div class="column-image">
-                    <img draggable="false" src="https://images.unsplash.com/photo-1517503733723-8ea1cf616798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    <img draggable="false"
+                        src="https://images.unsplash.com/photo-1517503733723-8ea1cf616798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                         alt="">
                 </div>
                 <div class="column-content">
@@ -122,10 +140,6 @@
                         needed.</p>
                     <p>We develop professional and beautiful websites that reflect the brand of your business or
                         organisation. The wide range of services offered by us includes </p>
-                    <p>website design and development, customised web application, web hosting, web programming, website
-                        redesign etc. </p>
-                    <p>The tools used to make a website was HTML, CSS, Javascript, ReactJS, AngularJS, NodeJS, MySQL,
-                        MongoDB</p>
                 </div>
             </div>
         </div>
@@ -157,9 +171,9 @@
                     <h2>Overview</h2>
                     <ul>
                         <li><a href="#about">About</a></li>
-                        <li><a href="">Technologies</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Home</a></li>
+                        <li><a href="#technologies">Technologies</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="/index.html">Home</a></li>
                     </ul>
                     <p></p>
                 </div>
